@@ -3,9 +3,9 @@
     data-kt-drawer-direction="start" data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
     <div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
         <a href="">
-            <img alt="Logo" src="/metronic8/assets/logo/logo-w.svg" class="h-25px app-sidebar-logo-default"
+            <img alt="Logo" src="" class="h-25px app-sidebar-logo-default"
                 style="height: 40px !important;" />
-            <img alt="Logo" src="/metronic8/assets/fav-icon/logo-fav-w.svg"
+            <img alt="Logo" src=""
                 class="h-20px app-sidebar-logo-minimize" />
         </a>
         <div id="kt_app_sidebar_toggle"

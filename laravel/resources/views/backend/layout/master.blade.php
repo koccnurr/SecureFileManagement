@@ -104,7 +104,7 @@
                                 <div class="cursor-pointer symbol symbol-35px symbol-md-40px"
                                     data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-attach="parent"
                                     data-kt-menu-placement="bottom-end">
-                                    <img src="/metronic8/assets/fav-icon/favicon-96x96.png"
+                                    <img src=""
                                         alt="user">
                                 </div>
                                 <!--begin::User account menu-->
@@ -116,7 +116,7 @@
                                             <!--begin::Avatar-->
                                             <div class="symbol symbol-50px me-5">
                                                 <img alt="Logo"
-                                                    src="/metronic8/assets/fav-icon/favicon-96x96.png">
+                                                    src="">
                                             </div>
                                             <!--end::Avatar-->
                                             <!--begin::Username-->
