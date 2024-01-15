@@ -1,0 +1,241 @@
+
+.nav-tabs {
+    border-bottom-color: #ebebeb;
+    margin-bottom: 1rem
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-item.show .nav-link:focus,
+.nav-tabs .nav-item.show .nav-link:hover {
+    color: #4d5259
+}
+
+.nav-tabs .nav-link {
+    position: relative;
+    border: none;
+    font-size: 13px;
+    text-align: center;
+    color: #8b95a5;
+    border-bottom: 2px solid transparent;
+    padding: 10px 16px;
+    border-radius: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s
+}
+
+@media (max-width: 767px) {
+    .nav-tabs .nav-link {
+        padding: 8px 12px
+    }
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link.active:focus,
+.nav-tabs .nav-link.active:hover {
+    color: #4d5259;
+    border-color: #33cabb
+}
+
+.nav-tabs .nav-link .icon {
+    margin-right: 4px
+}
+
+.nav-tabs .nav-link .close {
+    width: 12px;
+    height: 12px;
+    margin-top: 6px;
+    font-size: 20px;
+    opacity: 0;
+    -webkit-transform: translateX(10px);
+    transform: translateX(10px)
+}
+
+.nav-tabs .nav-link .close span {
+    display: inline-block;
+    width: inherit;
+    height: inherit
+}
+
+.nav-tabs .nav-link:hover .close {
+    opacity: .25
+}
+
+.nav-tabs.nav-tabs-primary .nav-link:hover,
+.nav-tabs.nav-tabs-primary .nav-link.active,
+.nav-tabs.nav-tabs-primary .nav-link.active:focus,
+.nav-tabs.nav-tabs-primary .nav-link.active:hover {
+    border-color: #33cabb
+}
+
+.nav-tabs.nav-tabs-secondary .nav-link:hover,
+.nav-tabs.nav-tabs-secondary .nav-link.active,
+.nav-tabs.nav-tabs-secondary .nav-link.active:focus,
+.nav-tabs.nav-tabs-secondary .nav-link.active:hover {
+    border-color: #e4e7ea
+}
+
+.nav-tabs.nav-tabs-success .nav-link:hover,
+.nav-tabs.nav-tabs-success .nav-link.active,
+.nav-tabs.nav-tabs-success .nav-link.active:focus,
+.nav-tabs.nav-tabs-success .nav-link.active:hover {
+    border-color: #15c377
+}
+
+.nav-tabs.nav-tabs-info .nav-link:hover,
+.nav-tabs.nav-tabs-info .nav-link.active,
+.nav-tabs.nav-tabs-info .nav-link.active:focus,
+.nav-tabs.nav-tabs-info .nav-link.active:hover {
+    border-color: #48b0f7
+}
+
+.nav-tabs.nav-tabs-warning .nav-link:hover,
+.nav-tabs.nav-tabs-warning .nav-link.active,
+.nav-tabs.nav-tabs-warning .nav-link.active:focus,
+.nav-tabs.nav-tabs-warning .nav-link.active:hover {
+    border-color: #faa64b
+}
+
+.nav-tabs.nav-tabs-danger .nav-link:hover,
+.nav-tabs.nav-tabs-danger .nav-link.active,
+.nav-tabs.nav-tabs-danger .nav-link.active:focus,
+.nav-tabs.nav-tabs-danger .nav-link.active:hover {
+    border-color: #f96868
+}
+
+.nav-tabs.nav-tabs-pink .nav-link:hover,
+.nav-tabs.nav-tabs-pink .nav-link.active,
+.nav-tabs.nav-tabs-pink .nav-link.active:focus,
+.nav-tabs.nav-tabs-pink .nav-link.active:hover {
+    border-color: #f96197
+}
+
+.nav-tabs.nav-tabs-purple .nav-link:hover,
+.nav-tabs.nav-tabs-purple .nav-link.active,
+.nav-tabs.nav-tabs-purple .nav-link.active:focus,
+.nav-tabs.nav-tabs-purple .nav-link.active:hover {
+    border-color: #926dde
+}
+
+.nav-tabs.nav-tabs-brown .nav-link:hover,
+.nav-tabs.nav-tabs-brown .nav-link.active,
+.nav-tabs.nav-tabs-brown .nav-link.active:focus,
+.nav-tabs.nav-tabs-brown .nav-link.active:hover {
+    border-color: #8d6658
+}
+
+.nav-tabs.nav-tabs-cyan .nav-link:hover,
+.nav-tabs.nav-tabs-cyan .nav-link.active,
+.nav-tabs.nav-tabs-cyan .nav-link.active:focus,
+.nav-tabs.nav-tabs-cyan .nav-link.active:hover {
+    border-color: #57c7d4
+}
+
+.nav-tabs.nav-tabs-yellow .nav-link:hover,
+.nav-tabs.nav-tabs-yellow .nav-link.active,
+.nav-tabs.nav-tabs-yellow .nav-link.active:focus,
+.nav-tabs.nav-tabs-yellow .nav-link.active:hover {
+    border-color: #fcc525
+}
+
+.nav-tabs.nav-tabs-gray .nav-link:hover,
+.nav-tabs.nav-tabs-gray .nav-link.active,
+.nav-tabs.nav-tabs-gray .nav-link.active:focus,
+.nav-tabs.nav-tabs-gray .nav-link.active:hover {
+    border-color: #868e96
+}
+
+.nav-tabs.nav-tabs-dark .nav-link:hover,
+.nav-tabs.nav-tabs-dark .nav-link.active,
+.nav-tabs.nav-tabs-dark .nav-link.active:focus,
+.nav-tabs.nav-tabs-dark .nav-link.active:hover {
+    border-color: #465161
+}
+
+.nav-tabs-light-mode {
+    border-bottom: none;
+    background-color: #f9fafb
+}
+
+.nav-tabs-light-mode .nav-link {
+    border-bottom: none
+}
+
+.nav-tabs-inverse-mode {
+    border-bottom: none;
+    background-color: transparent;
+    margin-bottom: 0
+}
+
+.nav-tabs-inverse-mode .nav-link {
+    border-bottom: none
+}
+
+.nav-tabs-inverse-mode .nav-link.active,
+.nav-tabs-inverse-mode .nav-link.active:focus,
+.nav-tabs-inverse-mode .nav-link.active:hover {
+    background-color: #f9fafb
+}
+
+.nav-tabs-inverse-mode+.tab-content {
+    background-color: #f9fafb;
+    padding: 20px 16px
+}
+
+.nav-tabs-left,
+.nav-tabs-right {
+    display: -webkit-box;
+    display: flex
+}
+
+.nav-tabs-left .nav-tabs,
+.nav-tabs-right .nav-tabs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    border-bottom: 0
+}
+
+.nav-tabs-left .nav-tabs .nav-item+.nav-item,
+.nav-tabs-right .nav-tabs .nav-item+.nav-item {
+    margin-left: 0
+}
+
+.nav-tabs-left .nav-tabs .nav-link,
+.nav-tabs-right .nav-tabs .nav-link {
+    border-bottom: none;
+    text-align: left
+}
+
+.nav-tabs-left .tab-content,
+.nav-tabs-right .tab-content {
+    overflow: hidden
+}
+
+.nav-tabs-left .nav-tabs {
+    border-right: 1px solid #ebebeb
+}
+
+.nav-tabs-left .nav-tabs .nav-link {
+    border-right: 2px solid transparent
+}
+
+.nav-tabs-left .tab-content {
+    padding-left: 20px
+}
+
+.nav-tabs-right .nav-tabs {
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+    border-left: 1px solid #ebebeb
+}
+
+.nav-tabs-right .nav-tabs .nav-link {
+    border-left: 2px solid transparent
+}
+
+.nav-tabs-right .tab-content {
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+    padding-right: 20px
+}
